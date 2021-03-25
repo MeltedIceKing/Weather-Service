@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Weather File created"
+curl wttr.in > $HOME/bin/weather.txt

@@ -1,0 +1,12 @@
+[Unit]
+Description=this is a silly weather service
+
+[Service]
+Type=simple
+User=vagrant
+ExecStart=/home/vagrant/bin/weather
+WorkingDirectory=/home/vagrant/bin
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
