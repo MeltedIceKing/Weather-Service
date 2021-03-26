@@ -2,7 +2,7 @@
 
 **Welcome to Weather Service!**
 <br>
-To run this file please follow the following instructions:
+To install and run this file please follow the following instructions:
 
 Weather Script
 1. create a bin directory in your home folder if non-existent with: run > mkdir bin
